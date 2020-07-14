@@ -1,7 +1,7 @@
 html{
     background-image: url(COVID19.jpg);
     background-size: cover;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
 }
 
 body {
@@ -12,12 +12,12 @@ body {
 
 }
 
-body:after {
+/* body:after {
     position: absolute;
     content: "";
     height: 50%;
     width: 100%;
-    /* background : black; */
+    /* background : black;
     top: 0;
 }
  body:before {
@@ -26,7 +26,7 @@ body:after {
     height: 50%;
     width: 100%;
     bottom: 0;
-}
+} */
 
 #countryList {
         align-items: center;
@@ -98,7 +98,7 @@ img#flag {
 }
 
 .card i {
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 
@@ -113,6 +113,17 @@ img#flag {
         align-items: center;
 
     }
+    html{
+        background-image: url(COVID19.jpg);
+        background-size: cover;
+        background-repeat: repeat;
+    }
+    .container h2,h4{
+        font-size: 23px;
+        text-align: left;
+        background-color: honeydew;
+    }
+
 }
 
 
@@ -120,6 +131,7 @@ img#flag {
     .board{
         column-count: 2;
     }
+
 
 
 }
