@@ -1,8 +1,7 @@
 html{
     background-image: url(COVID19.jpg);
-    background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
 }
 
 body {
@@ -10,7 +9,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 body:after {
@@ -20,7 +19,7 @@ body:after {
     width: 100%;
     /* background : black; */
     top: 0;
-} 
+}
  body:before {
     position: absolute;
     content: "";
@@ -39,11 +38,11 @@ body:after {
         background-color: #eee;
         border-radius: 5px;
 
-} 
+}
 .container {
     z-index: 1;
     width:60%;
-    margin: 80px;    
+    margin: 80px;
     border-radius: 20px;
     padding: 2%;
     /* box-shadow: 0px 10px 6px -8px rgb(12, 12, 12); */
@@ -105,13 +104,22 @@ img#flag {
 
 @media screen and (max-width : 768px){
     .board{
-        column-count: 2;
+        column-count: 1;
+    }
+    body {
+        height: 80vh;
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+
     }
 }
 
 
-@media screen and (max-width : 500px){
+@media screen and (max-width : 300px){
     .board{
-        column-count: 1;
+        column-count: 2;
     }
+
+
 }
