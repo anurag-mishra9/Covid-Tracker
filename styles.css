@@ -12,7 +12,7 @@ body {
 
 }
 
-/* body:after {
+/*body:after {
     position: absolute;
     content: "";
     height: 50%;
@@ -26,7 +26,7 @@ body {
     height: 50%;
     width: 100%;
     bottom: 0;
-} */
+}*/
 
 #countryList {
         align-items: center;
@@ -102,7 +102,7 @@ img#flag {
 }
 
 
-@media screen and (max-width : 768px){
+@media screen and (max-width : 890px){
     .board{
         column-count: 1;
     }
@@ -127,11 +127,7 @@ img#flag {
 }
 
 
-@media screen and (max-width : 300px){
+@media screen and (max-width : 400px){
     .board{
-        column-count: 2;
+        column-count: 1;
     }
-
-
-
-}
