@@ -12,14 +12,14 @@ body {
 
 }
 
-/*body:after {
+/* body:after {
     position: absolute;
     content: "";
     height: 50%;
     width: 100%;
-    /* background : black;
+    /* background : black;*/
     top: 0;
-}*/
+}
  body:before {
     position: absolute;
     content: "";
@@ -37,13 +37,11 @@ body {
         color: #1c87c9;
         background-color: #eee;
         border-radius: 5px;
-
-
 }
 .container {
     z-index: 1;
-    width:60%;
-    margin: 80px;
+    width:70%;
+    margin: 0 auto;
     border-radius: 20px;
     padding: 2%;
 
@@ -104,7 +102,7 @@ img#flag {
 }
 
 
-@media screen and (max-width : 890px){
+@media screen and (max-width : 768px){
     .board{
         column-count: 1;
     }
@@ -120,16 +118,4 @@ img#flag {
         background-size: cover;
         background-repeat: repeat;
     }
-    .container h2,h4{
-        font-size: 23px;
-        text-align: left;
-        background-color: honeydew;
-    }
-
 }
-
-
-@media screen and (max-width : 400px){
-    .board{
-        column-count: 1;
-    }
